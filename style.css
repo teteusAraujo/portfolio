@@ -10,6 +10,20 @@
 html{
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 
 section{
     padding: 100px 0;
@@ -21,4 +35,14 @@ section{
 }
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
+}
+
+.about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
