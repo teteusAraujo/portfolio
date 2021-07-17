@@ -82,3 +82,20 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
+
+.logo {
+    margin-top: -10px;
+}
+
+.logo img {
+    margin-bottom: -15px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
