@@ -1,4 +1,4 @@
-# portifolio
+# portfolio
 Meu portfólio criado com o objetivo de mostrar meus projetos e currículo .
 
 ## :mortar_board: Autor
