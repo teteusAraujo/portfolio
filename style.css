@@ -10,12 +10,15 @@
 html{
     scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
 }
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
@@ -28,11 +31,13 @@ html{
 section{
     padding: 100px 0;
 }
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
+
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
@@ -55,4 +60,25 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(20, 130, 220);
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
 }
