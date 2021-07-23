@@ -99,3 +99,25 @@ section .title::after{
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
+
+.navbar.sticky{
+    padding: 25px 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span{
+    color: rgb(20, 238, 238);
+    transition: all 0.3s ease;
+}
