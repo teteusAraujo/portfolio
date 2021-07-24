@@ -156,3 +156,23 @@ section .title::after{
     cursor: pointer;
     display: none;
 }
+
+.scroll-up-btn{
+    position: fixed;
+    height: 42px;
+    width: 42px;
+    background: rgb(0, 200, 214);
+    right: 30px;
+    bottom: 1rem;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 50px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
