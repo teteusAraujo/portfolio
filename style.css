@@ -121,3 +121,13 @@ section .title::after{
     color: rgb(20, 238, 238);
     transition: all 0.3s ease;
 }
+
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+
+.navbar.sticky .logo a span::after {
+    color: #00FFFF;
+    content: " Mateus Araújo";
+    font-size: 0.8em;
+}
