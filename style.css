@@ -79,7 +79,7 @@ section .title::after{
     font-size: 20px;
     color: rgb(20, 130, 220);
     padding: 0 5px;
-    background: #fff;
+    background: rgb(26, 25, 25);
     transform: translateX(-50%);
 }
 
@@ -148,4 +148,11 @@ section .title::after{
 
 .navbar .menu li a:hover{
     color: rgb(20, 238, 238);
+}
+
+.menu-btn{
+    color: rgb(20, 238, 238);
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
 }
