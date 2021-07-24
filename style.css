@@ -131,3 +131,21 @@ section .title::after{
     content: " Mateus Araújo";
     font-size: 0.8em;
 }
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: rgb(20, 238, 238);
+}
