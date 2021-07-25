@@ -176,3 +176,15 @@ section .title::after{
     pointer-events: none;
     transition: all 0.3s ease;
 }
+
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+    background-color: #00ffff34;
+    color: #00FFFF;
+    border: #00FFFF solid 1px;
+}
