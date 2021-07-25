@@ -200,3 +200,22 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.home .max-width{
+    width: 100%;
+    display: flex;
+  }
+  
+  .home .max-width .row{
+    margin-right: 0;
+  }
+
+  .home .home-content .text-1{
+      font-size: 27px;
+  }
+
+  .home .home-content .text-2{
+      font-size: 75px;
+      font-weight: 600;
+      margin-left: -3px;
+  }
