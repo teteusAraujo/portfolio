@@ -188,3 +188,15 @@ section .title::after{
     color: #00FFFF;
     border: #00FFFF solid 1px;
 }
+
+
+.home{
+    display: flex;
+    background: url("images/perfil.svg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
