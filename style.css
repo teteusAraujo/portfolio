@@ -266,3 +266,17 @@ section .title::after{
 .about .about-content .right{
     width: 55%;
 }
+
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span{
+    color: rgb(1, 196, 202);
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
