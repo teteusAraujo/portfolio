@@ -229,3 +229,40 @@ section .title::after{
     color: rgb(238, 71, 196);
     font-weight: 500;
 }
+
+.home .home-content a{
+    display: inline-block;
+    background: rgb(1, 196, 202);
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid rgb(0, 197, 204);
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: rgb(71, 232, 238);
+    background: rgba(1, 196, 202, 0.6);
+    border: #00FFFF solid 1px;
+}
+
+.about .title::after{
+    content: "quem sou eu";
+}
+
+.about .about-content .left{
+    width: 45%;
+}
+
+.about .about-content .left img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about .about-content .right{
+    width: 55%;
+}
