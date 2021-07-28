@@ -325,3 +325,17 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+.services .serv-content .card:hover{
+    background: rgba(0, 238, 255, 0.103);
+    border: #04e2ff75 solid 1px;
+    color: #FFFFFF;
+}
+
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
