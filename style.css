@@ -298,3 +298,13 @@ section .title::after{
     color: rgb(20, 173, 220);
     background: none;
 }
+
+.services, .teams{
+    color:#fff;
+    background: #111;
+}
+
+.services .title::before,
+.teams .title::before{
+    background: #fff;
+}
