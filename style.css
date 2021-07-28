@@ -308,3 +308,20 @@ section .title::after{
 .teams .title::before{
     background: #fff;
 }
+
+.services .title::after,
+.teams .title::after{
+    background: #111;
+    content: "eu posso ajudar";
+}
+
+.services .serv-content .card{
+    margin: 11px;
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 35px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
