@@ -339,3 +339,19 @@ section .title::after{
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
+
+.services .serv-content .card i{
+    font-size: 50px;
+    color: rgb(28, 157, 231);
+    transition: color 0.3s ease;
+}
+
+.services .serv-content .card:hover i{
+    color: #00FFFF;
+}
+
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
