@@ -355,3 +355,15 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+.teams {
+    height: 55vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.teams .title::after{
+    content: "meus trabalhos";
+}
