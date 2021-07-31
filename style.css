@@ -367,3 +367,16 @@ section .title::after{
 .teams .title::after{
     content: "meus trabalhos";
 }
+
+.teams .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 5.9vh 2.2vh;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover{
+    background: rgba(1, 196, 202, 0.6);
+}
