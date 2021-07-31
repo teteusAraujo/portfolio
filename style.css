@@ -392,3 +392,18 @@ section .title::after{
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
+
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(1, 196, 202);
+    transition: all 0.3s ease;
+}
