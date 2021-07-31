@@ -380,3 +380,15 @@ section .title::after{
 .teams .carousel .card:hover{
     background: rgba(1, 196, 202, 0.6);
 }
+
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
