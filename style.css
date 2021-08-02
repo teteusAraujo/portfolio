@@ -432,3 +432,16 @@ section .title::after{
 .owl-dot:hover{
     background: rgb(1, 196, 202)!important;
 }
+
+footer{
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: -75px;
+}
+
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
