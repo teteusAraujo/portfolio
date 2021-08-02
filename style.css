@@ -445,3 +445,23 @@ footer span a{
     color: crimson;
     text-decoration: none;
 }
+
+footer span a:hover{
+    text-decoration: underline;
+}
+
+.love {
+    display:inline-block;
+    position:relative;
+    top:.1em;
+    font-size:1.8em;
+    color:#00FFFF;
+    transform:scale(.9);
+    animation:love .5s linear infinite alternate-reverse;
+   }
+   
+   @keyframes love {
+    to {
+     transform:scale(1.1)
+    }
+   }
