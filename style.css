@@ -500,3 +500,25 @@ h3 {
     padding-top: 20px;
     padding-bottom: 5px;
 }
+
+.fa-linkedin {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.fa-linkedin:hover {
+    text-decoration: none;
+    color: #00FFFF;
+    transition: all 0.3s ease;
+}
+
+.fa-github {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.fa-github:hover {
+    text-decoration: none;
+    color: #00FFFF;
+    transition: all 0.3s ease;
+}
