@@ -522,3 +522,25 @@ h3 {
     color: #00FFFF;
     transition: all 0.3s ease;
 }
+
+.fa-twitter {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.fa-twitter:hover {
+    text-decoration: none;
+    color: #00FFFF;
+    transition: all 0.3s ease;
+}
+
+.fa-medium {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.fa-medium:hover {
+    text-decoration: none;
+    color: #00FFFF;
+    transition: all 0.3s ease;
+}
