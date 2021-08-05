@@ -544,3 +544,14 @@ h3 {
     color: #00FFFF;
     transition: all 0.3s ease;
 }
+
+.fa-instagram {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram:hover {
+    text-decoration: none;
+    color: #00FFFF;
+    transition: all 0.3s ease;
+}
