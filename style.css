@@ -367,6 +367,20 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+/* skills section styling */
+
+.skills .title::after{
+    content: "Tecnologias que utilizo";
+}
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 /* teams section styling */
 
