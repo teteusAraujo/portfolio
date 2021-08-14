@@ -212,23 +212,23 @@ section .title::after{
 .home .max-width{
     width: 100%;
     display: flex;
-  }
+}
   
-  .home .max-width .row{
+.home .max-width .row{
     margin-right: 0;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
   }
 
-  .home .home-content .text-1{
-      font-size: 27px;
-  }
-
-  .home .home-content .text-2{
-      font-size: 75px;
-      font-weight: 600;
-      margin-left: -3px;
-  }
-
-  .home .home-content .text-3{
+.home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
 }
@@ -382,6 +382,86 @@ section .title::after{
     margin-bottom: 10px;
 }
 
+.skills .skills-content .left p{
+    text-align: justify;
+    margin-bottom: 25px;
+    line-height: 4vh;
+}
+.skills .skills-content .left a{
+    display: inline-block;
+    background: rgb(1, 196, 202);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(1, 196, 202);
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+    color: rgb(1, 196, 202);
+    background: none;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(1, 48, 202);
+}
+.skills-content .right .html::before{
+    width: 70%;
+}
+.skills-content .right .css::before{
+    width: 60%;
+}
+.skills-content .right .legaltechs::before{
+    width: 90%;
+}
+.skills-content .right .git::before{
+    width: 50%;
+}
+.skills-content .right .github::before{
+    width: 60%;
+}
+.skills-content .right .linux::before{
+    width: 50%;
+}
+.skills-content .right .python::before{
+    width: 40%;
+}
+.skills-content .right .data-science::before{
+    width: 30%;
+}
+.skills-content .right .mysql::before{
+    width: 20%;
+}
+.skills-content .right .js::before{
+    width: 30%;
+}
 /* teams section styling */
 
 .teams {
