@@ -586,6 +586,25 @@ section .title::after{
 .owl-dot:hover{
     background: rgb(1, 196, 202)!important;
 }
+/* contact section styling */
+
+.contact .title::after{
+    content: "me encontre";
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
 
 /* footer section styling */
 
