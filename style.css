@@ -628,6 +628,26 @@ section .title::after{
     font-weight: 500;
 }
 
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+
+.contact .right form .fields{
+    float: left;
+    padding-top: 40px;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
 /* footer section styling */
 
 footer{
