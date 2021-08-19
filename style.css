@@ -648,6 +648,33 @@ section .title::after{
     height: 80px;
     width: 100%;
 }
+
+.contact .right form .name{
+    margin-right: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
 /* footer section styling */
 
 footer{
