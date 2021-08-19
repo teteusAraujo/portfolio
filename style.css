@@ -675,6 +675,31 @@ section .title::after{
   padding-top: 10px;
   resize: none;
 }
+
+.contact .right form .button-area{
+    display: flex;
+    align-items: center;
+  }
+  .right form .button-area button{
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: rgb(1, 196, 202);
+    border: 2px solid rgb(1, 196, 202);
+    transition: all 0.3s ease;
+  }
+  
+  .right form .button-area button:hover{
+    color: rgb(1, 196, 202);
+    background: none;
+  }
 /* footer section styling */
 
 footer{
