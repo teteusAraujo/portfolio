@@ -1,6 +1,13 @@
 # portifolio
 Meu portfólio criado com o objetivo de mostrar meus projetos e currículo .
 
+## 🖼 Screenshot das telas da aplicação 
+
+## 🖼 Tela dos meus seviços que ofereço 
+
+ <img src="images/meuservico.png" alt="Tela de meus Servuços"> 
+
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
