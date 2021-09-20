@@ -7,6 +7,9 @@ Meu portfólio criado com o objetivo de mostrar meus projetos e currículo .
 
  <img src="images/meuservico.png" alt="Tela de meus Servuços"> 
 
+## 🖼 Tela dos meus projetos
+
+ <img src="images/projetos.png" alt="Tela de meus projetos"> 
 
 ## 🛠 Tecnologias
 
