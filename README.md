@@ -2,6 +2,9 @@
 Meu portfólio criado com o objetivo de mostrar meus projetos e currículo .
 
 ## 🖼 Screenshot das telas da aplicação 
+## 🖼 Tela sobre mim
+
+ <img src="images/sobremim.png" alt="Sobre mim"> 
 
 ## 🖼 Tela dos meus seviços que ofereço 
 
@@ -11,6 +14,10 @@ Meu portfólio criado com o objetivo de mostrar meus projetos e currículo .
 
  <img src="images/projetos.png" alt="Tela de meus projetos"> 
 
+## 🖼 Tela para os meus contatos
+
+ <img src="images/contatos.png" alt="Entrar em contato comigo">
+  
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
